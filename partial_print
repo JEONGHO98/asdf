@@ -1,13 +1,13 @@
 for i in range(11):
-if i != 3:
-print(i)
+    if i != 3:
+        print(i)
 
 for j in range(11, 21):
     print(j)
 
 for i in range(21, 31):
-    print(i)
+    if i != 4:
+        print(i)
 
-eleven_to_twenty=[i for i in range(31, 41)]
+eleven_to_twenty = [i for i in range(31, 41) if i != 4]
 print(eleven_to_twenty)
-
