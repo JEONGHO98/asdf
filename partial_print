@@ -1,4 +1,9 @@
 one_to_ten = [i in range(11)]
 print(one_to_ten)
+<<<<<<< HEAD
 for i in range(21, 31):
     print(i)
+=======
+eleven_to_twenty=[i in range(21)]
+print(eleven_to_twenty)
+>>>>>>> 4cc52cad1e777f373af6128e397a9802e6ec1178
