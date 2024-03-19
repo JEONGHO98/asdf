@@ -1,6 +1,9 @@
 for i in range(2, 11):
 print(i)
 
+if i !=4:
+print(i)
+
 for j in range(11, 21):
     print(j)
 
