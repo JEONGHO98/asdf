@@ -1,5 +1,12 @@
-one_to_ten = [i in range(11)]
+one_to_ten = [i for i in range(11)]
 print(one_to_ten)
 
 for j in range(11, 21):
-print(j)
+    print(j)
+
+for i in range(21, 31):
+    print(i)
+
+eleven_to_twenty=[i for i in range(31, 41)]
+print(eleven_to_twenty)
+
